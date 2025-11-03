@@ -5,7 +5,7 @@ int main(){
 	do{
 		printf("Nhap so phan tu cua mang (1-100): ");
 		scanf("%d", &n);
-	}while(n<0 || n>100);
+	}while(n<1 || n>100);
 	
 	for(i=0;i<n;i++){
 		printf("Nhap phan tu thu %d: ", i+1);
@@ -27,3 +27,4 @@ int main(){
 		printf("%d ", arr[i]);
 	}
 }
+
