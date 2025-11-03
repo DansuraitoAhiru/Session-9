@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int arr[] = {3,36,69,96,6969,35,36,36,36,69,896};
     int n = sizeof(arr) / sizeof(arr[0]);
@@ -21,3 +20,4 @@ int main() {
     }
     printf("Phan tu xuat hien nhieu nhat la: %d", mostFreq);
 }
+
