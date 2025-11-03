@@ -4,7 +4,7 @@ int main(){
 	do{
 		printf("Nhap so phan tu trong mang (1-100): ");
 		scanf("%d", &n);
-	} while (n<0 || n>100);
+	} while (n<1 || n>100);
 	for(i=0;i<n;i++){
 		printf("arr[%d]: ",i);
 		scanf("%d", &arr[i]);
@@ -21,3 +21,4 @@ int main(){
 			printf("%d ko xuat hien trong mang", x);
 		}
 }
+
